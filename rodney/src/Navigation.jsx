@@ -12,6 +12,9 @@ export default () => {
           <li>
             <Link to="/gallery">Gallery</Link>
           </li>
+          <li>
+            <Link to="/movies">Movies</Link>
+          </li>
         </ul>
       </nav>
     </section>

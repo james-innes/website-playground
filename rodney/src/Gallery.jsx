@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import urls from "./urls";
+import urls from "./assets/json/urls";
 
 export default function Gallery() {
   return (
@@ -12,7 +12,7 @@ export default function Gallery() {
 
       <div class="gallery">
         {[1, 3, 4, 5, 6].map(x => (
-          <img src={process.env.PUBLIC_URL + `/img/${x}.jpg`} />
+          <img src={`./assets/img/${x}.jpg`} />
         ))}
       </div>
 
