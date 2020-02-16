@@ -1,0 +1,30 @@
+---
+images:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>James Innes</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Waldorf Education {{ title }} is here</h1>
+        <p>7 - 16 years at Ringwood Waldorf School</p>
+      </header>
+
+      <div class="gallery">
+        {% for filename in images %}
+        <img src="./img/{{ filename }}" />
+        {% endfor %}
+      </div>
+      <img src="img/1.jpg" alt="" />
+    </article>
+  </body>
+</html>
