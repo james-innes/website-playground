@@ -2,18 +2,12 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Gallery from "./Gallery";
 import Styleguide from "./Styleguide";
-import App from "./App";
+import Home from "./Home";
 
-const Routes = () => (
+export default () => (
   <Switch>
-    <Route exact path="/" />
-    <Route path="/gallery">
-      <Gallery />
-    </Route>
-    <Route path="/styleguide">
-      <Styleguide />
-    </Route>
+    <Route exact path="/" component={Home} />
+    <Route path="/gallery" component={Gallery} />
+    <Route path="/styleguide" component={Styleguide} />
   </Switch>
 );
-
-export default Routes;

@@ -1,16 +1,14 @@
 {
   "name": "rodney",
   "dependencies": {
-    "react-router-dom": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-router-dom": "latest",
     "react-scripts": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -23,7 +21,6 @@
     ],
     "development": [
       "last 1 chrome version",
-      "last 1 firefox version",
       "last 1 safari version"
     ]
   }
