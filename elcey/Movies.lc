@@ -1,0 +1,36 @@
+<head>
+  <title>James Innes</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+  <header>
+    Movies
+  </header>
+
+  <article>
+    <div class="gallery">
+      <?lc 
+      
+      # put URL ("file:IMDb.json") ino movies
+      # put jsonImport("./IMDb.json") into movies
+
+ 
+try
+  put JSONToArray("./IMDb.json") into tJSONArray
+catch tErr
+  put tErr -- this should give some clue
+end try
+
+
+      
+      # put movies
+      
+      /* repeat for each line movie in the movies
+      put merge(" <img src='http://img.omdbapi.com/?apikey=4f17f8ee&i=[[movie.Const]]' />")
+      end repeat */
+      
+      ?>
+    </div>
+  </article>
+</body>
