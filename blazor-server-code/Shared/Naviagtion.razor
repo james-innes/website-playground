@@ -1,27 +1,15 @@
 ﻿
-
-
+<div>
     <section>
       <nav>
         <ul>
           <li>
-              <NavLink href="elements">Elements</NavLink>
+            <NavLink href="elements">Elements</NavLink>
           </li>
           <li>
-<NavLink href="rws">Waldorf Education</NavLink>
-
+            <NavLink href="rws">Waldorf Education</NavLink>
           </li>
         </ul>
       </nav>
     </section>
-
-@code {
-    bool collapseNavMenu = true;
-
-    string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-}
+</div>

@@ -1,0 +1,62 @@
+{
+  "FilePath": "c:\\Users\\James.INnes\\source\\repos\\my-website\\blazor-server-code\\Website.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "3.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": null,
+  "RootNamespace": "Website",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\James.INnes\\source\\repos\\my-website\\blazor-server-code\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\James.INnes\\source\\repos\\my-website\\blazor-server-code\\Pages\\Elements.razor",
+      "TargetPath": "Pages\\Elements.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\James.INnes\\source\\repos\\my-website\\blazor-server-code\\Pages\\RWS.razor",
+      "TargetPath": "Pages\\RWS.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\James.INnes\\source\\repos\\my-website\\blazor-server-code\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\James.INnes\\source\\repos\\my-website\\blazor-server-code\\Shared\\Naviagtion.razor",
+      "TargetPath": "Shared\\Naviagtion.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\James.INnes\\source\\repos\\my-website\\blazor-server-code\\Pages\\_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\James.INnes\\source\\repos\\my-website\\blazor-server-code\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\James.INnes\\source\\repos\\my-website\\blazor-server-code\\Pages\\Error.razor",
+      "TargetPath": "Pages\\Error.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\James.INnes\\source\\repos\\my-website\\blazor-server-code\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}
