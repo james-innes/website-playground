@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>James Innes</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <?lc put URL ("file:Navigation.lc")?>
+  </body>
+</html>
