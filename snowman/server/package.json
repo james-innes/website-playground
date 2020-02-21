@@ -1,0 +1,10 @@
+{
+  "name": "server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "json-graphql-server": "^2.1.3"
+  }
+}

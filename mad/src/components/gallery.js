@@ -1,19 +1,33 @@
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
-const Gallery = () => {
-    return (
-        <nav>
-            <div className="gallery">
-                <img src={"https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&auto=format&fit=crop&w=1701&q=80"} />
-                <img src={"https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&auto=format&fit=crop&w=1701&q=80"} />
-                <img src={"https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&auto=format&fit=crop&w=1701&q=80"} />
-                <img src={"https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&auto=format&fit=crop&w=1701&q=80"} />
-                <img src={"https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&auto=format&fit=crop&w=1701&q=80"} />
-                <img src={"https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&auto=format&fit=crop&w=1701&q=80"} />
-                <img src={"https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&auto=format&fit=crop&w=1701&q=80"} />
-            </div>
-        </nav>
-    )
+export default () => {
+
+    var varible = 192;
+
+    const query {
+        allFile(filter: { relativeDirectory: { eq: "images" } }) {
+            edges {
+                node {
+                    childImageSharp {
+                        fluid(maxWidth: 192, maxHeight: 144) {
+                                ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+const data = useStaticQuery(graphql`query`)
+
+
+return (
+    <div className="gallery">
+        {data.allFile.edges.map(edge =>
+            <Img fluid={edge.node.childImageSharp.fluid} />
+        )}
+    </div>
+)
 }
-
-export default Gallery

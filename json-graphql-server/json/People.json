@@ -1,0 +1,24 @@
+[
+    {
+        "firstName": "Phoebe",
+        "lastName": "Carter",
+        "fullName": "Phoebe Carter",
+        "facebook": {
+            "id": "100006532873134",
+            "userName": "phoebe.carter.986",
+            "profilePicture": "blob"
+        },
+        "snapchatUsername": "phoebecarter123"
+    },
+    {
+        "firstName": "Issy",
+        "lastName": "Long",
+        "fullName": "Phoebe Carter",
+        "facebook": {
+            "id": "100004816206199",
+            "userName": "issyshlong",
+            "profilePicture": "blob"
+        },
+        "snapchatUsername": "issylong"
+    }
+]

@@ -4,7 +4,7 @@ import Gallery from "../components/gallery"
 
 export default () => (
   <Layout>
-    <h1>Waldorf Education</h1>
+    <h1>Gallery Demo</h1>
     <Gallery />
   </Layout >
 )

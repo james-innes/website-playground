@@ -1,0 +1,338 @@
+{
+  "Frequent Locations" : [
+    {
+      "City" : "west moors",
+      "Country" : "gbr",
+      "Region" : "dor"
+    },
+    {
+      "City" : "west moors",
+      "Country" : "gbr",
+      "Region" : "dor"
+    }
+  ],
+  "Latest Location" : [
+    {
+      "City" : "lewisham",
+      "Country" : "gbr",
+      "Region" : "lew"
+    }
+  ],
+  "Home & Work" : {},
+  "Daily Top Locations" : [],
+  "Top Locations Per Six-Day Period" : [],
+  "Locations You Have Visited" : [
+    {
+      "Time" : "2018/09/05 22:38:08 UTC",
+      "Latitude, Longitude" : "51.473 ± 39.66 meters, -0.199 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/06 09:30:17 UTC",
+      "Latitude, Longitude" : "51.473 ± 39.66 meters, -0.198 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/07 10:10:03 UTC",
+      "Latitude, Longitude" : "50.822 ± 39.66 meters, -1.891 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/10 14:20:39 UTC",
+      "Latitude, Longitude" : "37.638 ± 39.66 meters, -122.416 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/10 16:01:11 UTC",
+      "Latitude, Longitude" : "37.805 ± 39.66 meters, -122.404 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/10 16:01:11 UTC",
+      "Latitude, Longitude" : "37.805 ± 39.66 meters, -122.403 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/10 16:08:01 UTC",
+      "Latitude, Longitude" : "37.807 ± 39.66 meters, -122.405 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/10 16:08:01 UTC",
+      "Latitude, Longitude" : "37.807 ± 39.66 meters, -122.405 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/10 16:08:50 UTC",
+      "Latitude, Longitude" : "37.807 ± 39.66 meters, -122.404 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/10 19:00:33 UTC",
+      "Latitude, Longitude" : "37.826 ± 39.66 meters, -122.420 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:40:58 UTC",
+      "Latitude, Longitude" : "37.677 ± 39.66 meters, -119.588 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:01 UTC",
+      "Latitude, Longitude" : "37.677 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:05 UTC",
+      "Latitude, Longitude" : "37.678 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:09 UTC",
+      "Latitude, Longitude" : "37.678 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:12 UTC",
+      "Latitude, Longitude" : "37.679 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:13 UTC",
+      "Latitude, Longitude" : "37.679 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:17 UTC",
+      "Latitude, Longitude" : "37.679 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:20 UTC",
+      "Latitude, Longitude" : "37.680 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:24 UTC",
+      "Latitude, Longitude" : "37.681 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:25 UTC",
+      "Latitude, Longitude" : "37.681 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:31 UTC",
+      "Latitude, Longitude" : "37.682 ± 39.66 meters, -119.587 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:32 UTC",
+      "Latitude, Longitude" : "37.682 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:36 UTC",
+      "Latitude, Longitude" : "37.683 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:40 UTC",
+      "Latitude, Longitude" : "37.683 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:43 UTC",
+      "Latitude, Longitude" : "37.684 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:45 UTC",
+      "Latitude, Longitude" : "37.685 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:47 UTC",
+      "Latitude, Longitude" : "37.684 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:41:50 UTC",
+      "Latitude, Longitude" : "37.685 ± 39.66 meters, -119.589 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:42:04 UTC",
+      "Latitude, Longitude" : "37.686 ± 39.66 meters, -119.590 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:44:45 UTC",
+      "Latitude, Longitude" : "37.711 ± 39.66 meters, -119.588 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:44:55 UTC",
+      "Latitude, Longitude" : "37.712 ± 39.66 meters, -119.587 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:44:58 UTC",
+      "Latitude, Longitude" : "37.712 ± 39.66 meters, -119.587 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:45:06 UTC",
+      "Latitude, Longitude" : "37.712 ± 39.66 meters, -119.587 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:45:18 UTC",
+      "Latitude, Longitude" : "37.713 ± 39.66 meters, -119.586 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:45:19 UTC",
+      "Latitude, Longitude" : "37.713 ± 39.66 meters, -119.585 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:52:40 UTC",
+      "Latitude, Longitude" : "37.673 ± 39.66 meters, -119.636 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:52:43 UTC",
+      "Latitude, Longitude" : "37.672 ± 39.66 meters, -119.636 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:52:45 UTC",
+      "Latitude, Longitude" : "37.672 ± 39.66 meters, -119.635 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:52:49 UTC",
+      "Latitude, Longitude" : "37.672 ± 39.66 meters, -119.635 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:52:54 UTC",
+      "Latitude, Longitude" : "37.671 ± 39.66 meters, -119.634 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:52:55 UTC",
+      "Latitude, Longitude" : "37.672 ± 39.66 meters, -119.634 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:52:58 UTC",
+      "Latitude, Longitude" : "37.671 ± 39.66 meters, -119.634 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:01 UTC",
+      "Latitude, Longitude" : "37.671 ± 39.66 meters, -119.633 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:02 UTC",
+      "Latitude, Longitude" : "37.671 ± 39.66 meters, -119.632 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:04 UTC",
+      "Latitude, Longitude" : "37.671 ± 39.66 meters, -119.632 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:08 UTC",
+      "Latitude, Longitude" : "37.671 ± 39.66 meters, -119.631 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:09 UTC",
+      "Latitude, Longitude" : "37.671 ± 39.66 meters, -119.631 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:12 UTC",
+      "Latitude, Longitude" : "37.671 ± 39.66 meters, -119.631 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:16 UTC",
+      "Latitude, Longitude" : "37.671 ± 39.66 meters, -119.630 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:17 UTC",
+      "Latitude, Longitude" : "37.671 ± 39.66 meters, -119.629 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:20 UTC",
+      "Latitude, Longitude" : "37.670 ± 39.66 meters, -119.629 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:24 UTC",
+      "Latitude, Longitude" : "37.671 ± 39.66 meters, -119.629 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:25 UTC",
+      "Latitude, Longitude" : "37.671 ± 39.66 meters, -119.628 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:28 UTC",
+      "Latitude, Longitude" : "37.670 ± 39.66 meters, -119.628 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:32 UTC",
+      "Latitude, Longitude" : "37.670 ± 39.66 meters, -119.627 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:36 UTC",
+      "Latitude, Longitude" : "37.670 ± 39.66 meters, -119.626 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:37 UTC",
+      "Latitude, Longitude" : "37.670 ± 39.66 meters, -119.626 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:39 UTC",
+      "Latitude, Longitude" : "37.670 ± 39.66 meters, -119.626 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:41 UTC",
+      "Latitude, Longitude" : "37.670 ± 39.66 meters, -119.625 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:43 UTC",
+      "Latitude, Longitude" : "37.669 ± 39.66 meters, -119.625 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:45 UTC",
+      "Latitude, Longitude" : "37.669 ± 39.66 meters, -119.624 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:46 UTC",
+      "Latitude, Longitude" : "37.669 ± 39.66 meters, -119.624 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:49 UTC",
+      "Latitude, Longitude" : "37.669 ± 39.66 meters, -119.623 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:50 UTC",
+      "Latitude, Longitude" : "37.669 ± 39.66 meters, -119.623 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:53:52 UTC",
+      "Latitude, Longitude" : "37.668 ± 39.66 meters, -119.623 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:54:07 UTC",
+      "Latitude, Longitude" : "37.668 ± 39.66 meters, -119.621 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:58:16 UTC",
+      "Latitude, Longitude" : "37.715 ± 39.66 meters, -119.677 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 17:58:41 UTC",
+      "Latitude, Longitude" : "37.720 ± 39.66 meters, -119.573 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 21:52:22 UTC",
+      "Latitude, Longitude" : "37.689 ± 39.66 meters, -119.591 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/12 21:52:25 UTC",
+      "Latitude, Longitude" : "37.689 ± 39.66 meters, -119.591 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/13 18:53:41 UTC",
+      "Latitude, Longitude" : "37.728 ± 39.66 meters, -120.089 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/13 21:08:17 UTC",
+      "Latitude, Longitude" : "37.725 ± 39.66 meters, -120.087 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/13 21:08:17 UTC",
+      "Latitude, Longitude" : "37.725 ± 39.66 meters, -120.088 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/13 21:08:18 UTC",
+      "Latitude, Longitude" : "37.726 ± 39.66 meters, -120.089 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/16 00:37:54 UTC",
+      "Latitude, Longitude" : "36.421 ± 39.66 meters, -118.914 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/16 01:07:45 UTC",
+      "Latitude, Longitude" : "36.419 ± 39.66 meters, -118.915 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/17 14:47:33 UTC",
+      "Latitude, Longitude" : "36.420 ± 39.66 meters, -118.915 ± 39.66 meters"
+    },
+    {
+      "Time" : "2018/09/22 15:28:16 UTC",
+      "Latitude, Longitude" : "35.249 ± 39.66 meters, -112.196 ± 39.66 meters"
+    }
+  ]
+}

@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    title: `James Innes`,
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
