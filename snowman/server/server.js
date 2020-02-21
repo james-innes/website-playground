@@ -6,5 +6,3 @@ const server = express();
 const data = require("../data/db.js")
 server.use('/graphql', jsonGraphqlExpress.default(data));
 server.listen(PORT);
-console.log("Running :)")
-console.log(jsonGraphqlExpress.default)
