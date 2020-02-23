@@ -1,6 +1,6 @@
 import React from "react";
 
-function Styleguide() {
+function StyleGuide() {
   return (
     <div id="top" class="page">
       <header role="banner">
@@ -748,4 +748,4 @@ function Styleguide() {
   );
 }
 
-export default Styleguide;
+export default StyleGuide;
