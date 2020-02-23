@@ -1,0 +1,49 @@
+{
+  "name": "snowpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"babel src --out-dir lib --watch\" \"servor\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npx snowpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "npm:@reactesm/react@^0.1.0",
+    "react-dom": "npm:@reactesm/react-dom@^0.1.1",
+    "react-router-dom": "^5.1.2"
+  },
+  "snowpack": {
+    "webDependencies": [
+      "react",
+      "react-dom",
+      "react-router-dom",
+      "apollo-boost",
+      "apollo-client",
+      "apollo-link-http",
+      "concurrently",
+      "csz",
+      "graphql",
+      "graphql-tag",
+      "servor",
+      "snowpack"
+    ]
+  },
+  "devDependencies": {
+    "@apollo/react-hooks": "^3.1.3",
+    "@babel/cli": "^7.8.0",
+    "@babel/core": "^7.8.0",
+    "@babel/plugin-transform-react-jsx": "^7.8.3",
+    "apollo-boost": "^0.4.7",
+    "apollo-client": "^2.6.8",
+    "apollo-link-http": "^1.5.16",
+    "concurrently": "^5.0.2",
+    "csz": "^1.2.0",
+    "graphql": "^14.6.0",
+    "graphql-tag": "^2.10.3",
+    "servor": "^3.2.0",
+    "snowpack": "^1.0.3"
+  }
+}
