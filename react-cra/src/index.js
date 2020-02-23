@@ -26,7 +26,7 @@ function ExchangeRates() {
           }
         }
       }
-    }
+    } 
   `); */
 
   const { loading, error, data } = useQuery(gql`
@@ -44,6 +44,8 @@ function ExchangeRates() {
       }
     }
   `);
+
+  // ello ello ello
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error :(</p>;
