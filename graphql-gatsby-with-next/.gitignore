@@ -1,0 +1,6 @@
+.cache
+.next
+public
+yarn.lock
+out
+node_modules/
