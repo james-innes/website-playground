@@ -19,15 +19,16 @@
     ]
   },
   "dependencies": {
-    "react": "latest",
-    "react-dom": "latest",
-    "react-router-dom": "latest",
-    "react-scripts": "latest",
     "@apollo/react-hooks": "0.1.0-beta.11",
     "apollo-boost": "0.4.3",
     "apollo-client": "2.6.3",
     "apollo-link-http": "1.5.15",
+    "gatsby-image": "^2.2.41",
     "graphql": "latest",
-    "graphql-tag": "latest"
+    "graphql-tag": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "latest"
   }
 }
