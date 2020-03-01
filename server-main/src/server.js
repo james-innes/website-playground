@@ -4,14 +4,14 @@ var serveIndex = require("serve-index");
 const server = express();
 const __public = "../../public";
 
-/* server.use(
+server.use(
   "/graphql",
   jsonGraphqlExpress.default(require(__public + "/db.js"))
-); */
+);
 
 server.use("/public", express.static("../../public"));
 
-/* server.use(
+server.use(
   "/public",
   express.static(__public),
   serveIndex(__public, {
@@ -19,7 +19,6 @@ server.use("/public", express.static("../../public"));
     view: "details"
   })
 );
- */
 
 const PORT = 4000;
 server.listen(PORT, () =>
