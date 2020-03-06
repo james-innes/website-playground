@@ -1,8 +1,7 @@
 import React from "react"
-import Layout from "../components/layout"
 
-export default () => (
-    <Layout>
+const Styleguide = () => (
+    <>
         <h1>Style Guide</h1>
         <nav role="navigation">
             <ul>
@@ -738,5 +737,7 @@ export default () => (
                 </p>
             </form>
         </section>
-    </Layout>
+        </>
 )
+
+export default Styleguide;

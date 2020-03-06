@@ -1,0 +1,6 @@
+
+want to enable file exploring especially for repos
+
+what we need to do and have already done
+
+display file as page
