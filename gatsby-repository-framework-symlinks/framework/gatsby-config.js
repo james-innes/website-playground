@@ -13,6 +13,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-page-creator`,
+      options: {
+        name: "projects",
+        path: `${__dirname}/src/projects`,
+      },
     }
   ]
 }

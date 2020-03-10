@@ -2,20 +2,26 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
-const Gallery = () => {
+const Gallery = ({relativePath}) => {
+
+  const cats = "/cats/"
+
   const data = useStaticQuery(graphql`
     query {
-      allFile(filter: { relativeDirectory: { eq: "img" } }) {
-        edges {
-          node {
-            childImageSharp {
+        allFile(filter: {childImageSharp: {fluid: {}}, extension: {in: ["jpg", "jpeg", "png"]}, relativeDirectory: {regex: $cats }}) {
+    edges {
+      node {
+       childImageSharp {
               fluid(maxWidth: 192, maxHeight: 144) {
                 ...GatsbyImageSharpFluid
               }
             }
-          }
-        }
       }
+    }
+  }
+
+
+
     }
   `);
 
