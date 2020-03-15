@@ -1,11 +1,10 @@
 {
   "name": "react-tree",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "build:dev": "webpack --config ./webpack/webpack.config.js --env=dev --profile --progress",
+    "build:prod": "webpack --config ./webpack/webpack.config.js --env=prod --profile --progress",
+    "server:dev": "node ./src/server/server.js --inspect --env=dev",
+    "server:prod": "node ./src/server/server.js --inspect --env=prod"
   },
   "browserslist": {
     "production": [
@@ -19,9 +18,13 @@
     ]
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "copy-webpack-plugin": "^5.1.1",
+    "mini-css-extract-plugin": "^0.9.0",
     "react": "latest",
     "react-dom": "latest",
     "react-router-dom": "latest",
-    "react-scripts": "latest"
+    "webpack": "^4.42.0"
   }
 }
