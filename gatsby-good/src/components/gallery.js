@@ -2,7 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
-export default () => {
+const Gallery = () => {
   const data = useStaticQuery(graphql`
     query {
       allFile(filter: { relativeDirectory: { eq: "wrong/path" } }) {
@@ -27,3 +27,5 @@ export default () => {
     </div>
   );
 };
+
+export default Gallery;

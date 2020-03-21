@@ -1,0 +1,42 @@
+---
+images:
+- 1.jpg
+- 2.jpg
+- 3.jpg
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>James Innes</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+  <article>
+    <header>
+      <h1>Waldorf Education {{ title }} is 3r3here</h1>
+      <p>7 - 16 years at Ringwood Waldorf School</p>
+    </header>
+
+    {% for file in site.static_files %}
+    {% assign pageurl = page.url | replace: 'index.html', '' %}
+    {% if file.path contains pageurl %}
+    {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG' %}
+    <img src="{{ file.path }}" />
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
+    <div class="gallery">
+      {% for filename in images %}
+      <img src="./img/{{ filename }}" />
+      {% endfor %}
+    </div>
+    <img src="img/1.jpg" alt="" />
+  </article>
+</body>
+
+</html>

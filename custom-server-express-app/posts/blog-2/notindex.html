@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+<body>
+
+  <article>
+    <header>
+      <h1>Waldorf Education {{ title }} is 3r3here</h1>
+      <p>7 - 16 years at Ringwood Waldorf School</p>
+    </header>
+
+
+    <div class="gallery">
+      {% for filename in images %}
+      <img src="./cats/{{ filename }}" />
+      {% endfor %}
+    </div>
+    <img src="cats/1.jpg" alt="" />
+  </article>
+
+  <h1>{{ title }}</h1>
+  <section>
+    <nav role="navigation"></nav>
+    <ul>
+      <li><a href="./index.html">Index</a></li>
+      <li><a href="./gallery">Gallery</a></li>
+    </ul>
+    </nav>
+  </section>
+  <script src=""></script>
+</body>
