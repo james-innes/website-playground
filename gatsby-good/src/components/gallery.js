@@ -5,7 +5,7 @@ import Img from "gatsby-image";
 export default () => {
   const data = useStaticQuery(graphql`
     query {
-      allFile(filter: { relativeDirectory: { eq: "img" } }) {
+      allFile(filter: { relativeDirectory: { eq: "wrong/path" } }) {
         edges {
           node {
             childImageSharp {
