@@ -1,0 +1,15 @@
+id: 050401f3-df58-4f35-8793-c272e8ea0b07
+deploy:
+  # Note with below setting it is not necessary to pass --directory to aero deploy command
+  directory: public
+  # Turn off the Aerobatic asset fingerprinting since Gatsby already does this
+  optimizer:
+    fingerprintAssets: false
+
+plugins:
+  # Force aggressive 1yr max-age header for all .js and .js.map requests
+  - name: http-headers
+    path: ["/*.js", "/*.js.map"]
+    options:
+      "Cache-Control": "public, max-age=31536000"
+  - name: webpage
