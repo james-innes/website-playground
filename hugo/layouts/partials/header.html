@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+
+    {{ $sass := resources.Get "main.sass" }} {{ $style := $sass |
+    resources.ToCSS | resources.Fingerprint }}
+    <link
+      rel="stylesheet"
+      href="{{ $style.Permalink }}"
+      integrity="{{ $style.Data.Integrity }}"
+    />
+  </head>
+
+  <style>
+    .links {
+    display: flex;
+    list-style: none;
+    }
+
+    .links img {
+      height: 2.5rem
+    }
+
+  </style>
+
+  <body>
+    <header>
+    <figure>
+      <img src="avatar.jpg" alt="avatar" style="height: 8rem"/>
+      <figcaption>
+        James Innes
+      </figcaption>
+    </figure>
+    
+    <ul class="links">
+      <li><a href="https://github.com/james-innes"><img src="github.png" alt="Github"></a></li>
+      <li><a href="http://www.pinterest.co.uk/james_Innes_"><img src="pinterest.png" alt="Pinterest"></a></li>
+      <li><a href="https://www.linkedin.com/in/jamesinnes2169/"><img src="linkedin.png" alt="LinkedIn"></a></li>
+      <li><a href="https://www.instagram.com/james_innes_"><img src="instagram.png" alt="Instagram"></a></li>
+    </ul>
+  </header>
+    {{ partial "nav.html" . }}
+

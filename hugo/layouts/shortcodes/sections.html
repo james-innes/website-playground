@@ -1,0 +1,3 @@
+{{ range where .Site.Pages "type" "=" "test"}}
+<h1>{{ .Title }}</h1>
+{{ .Content }} {{ end }}

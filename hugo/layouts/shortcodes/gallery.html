@@ -1,0 +1,22 @@
+<div class="gallery">
+  {{ $image := (.Page.Resources.ByType "image") }} {{ with $image }} {{ range .
+  }} {{ $resized := .Fill "150x115 q20" }}
+  <img src="{{ $resized.Permalink }}" />
+  {{ end }} {{ end }}
+</div>
+
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 0fr));
+    grid-gap: 0.5rem;
+    align-items: stretch;
+  }
+
+  .gallery img {
+    max-width: 100%;
+    height: 9rem;
+    width: 12rem;
+    object-fit: cover;
+  }
+</style>

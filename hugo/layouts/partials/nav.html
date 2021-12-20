@@ -1,0 +1,26 @@
+<nav>
+  <ul>
+    {{ range .Site.RegularPages }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+    </li>
+    {{ end }}
+  </ul>
+
+  {{/*  <ul>
+    <li><a href="">Waldorf Education</a></li>
+    <li><a href="">Queen Elizabeth's</a></li>
+    <li><a href="">Chair Project</a></li>
+    <li><a href="">Lamp Project</a></li>
+    <li><a href="">Sideboard Project</a></li>
+    <li><a href="">Project 12</a></li>
+    <li><a href="">More Projects</a></li>
+    <li><a href="">Gource</a></li>
+    <li><a href="">Farm Website</a></li>
+    <li><a href="">Grocery Business</a></li>
+    <li><a href="">Apprenticeship</a></li>
+    <li><a href="">Personality</a></li>
+    <li><a href="">Ancestry</a></li>
+    <li><a href="">Travel</a></li>
+  </ul>  */}}
+</nav>
