@@ -1,0 +1,14 @@
+{
+  "name": "james-innes",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "nodemon --watch pages --watch template.html --watch build.js build.js & serve public"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.0.0",
+    "jsdom": "^18.0.0",
+    "marked": "^3.0.7",
+    "nodemon": "^2.0.15",
+    "serve": "^13.0.2"
+  }
+}
